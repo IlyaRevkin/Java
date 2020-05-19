@@ -1,0 +1,10 @@
+public class Vehicle {
+    
+    int id;
+    String name;
+    static int maxID = 1;
+
+    Vehicle() {
+        id = maxID++;
+    }
+}
