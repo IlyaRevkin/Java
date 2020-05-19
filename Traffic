@@ -1,0 +1,13 @@
+public class Traffic {
+    public static void main(String[] args) {
+        Vehicle Car1 = new Vehicle();
+        Car1.name = "GAZ";
+        Vehicle Car2 = new Vehicle();
+        Car2.name = "Volvo";
+        Vehicle Car3 = new Vehicle();
+        Car3.name = "Skoda";
+        System.out.println(Car1.id +" "+ Car1.name);
+        System.out.println(Car2.id +" "+ Car2.name);
+        System.out.println(Car3.id +" "+ Car3.name);
+    }
+}
