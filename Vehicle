@@ -1,10 +1,20 @@
 public class Vehicle {
     
-    int id;
-    String name;
+    private int id;
+    private String name;
     static int maxID = 1;
 
     Vehicle() {
+
         id = maxID++;
+        
+    }
+
+    public Vehicle(String name, int id) {
+
+        this.id = id;
+        this.name = name;
+        System.out.println(name + " " + id);
+
     }
 }
