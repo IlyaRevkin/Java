@@ -7,7 +7,7 @@ public class Traffic {
         Vehicle Car3 = new Vehicle("Skoda");
         Vehicle Car4 = new Vehicle();
         Vehicle Car5 = new Vehicle();
-        
+        //Hi
         System.out.println(Car1.getId()); 
         System.out.println(Car2.getId()); 
         System.out.println(Car3.getId());  
