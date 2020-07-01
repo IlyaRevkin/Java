@@ -1,6 +1,6 @@
 public class Vehicle {
     
-    private int id;
+    private int id = 0;
     private String name;
     static int maxID = 1;
 
@@ -10,11 +10,14 @@ public class Vehicle {
         
     }
 
-    public Vehicle(String name, int id) {
+    public int getId() {
+        return id;
+    }
 
-        this.id = id;
+    public Vehicle(String name) {
+
         this.name = name;
-        System.out.println(name + " " + id);
+        id = maxID++;
 
     }
 }
